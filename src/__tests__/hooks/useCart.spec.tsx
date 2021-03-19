@@ -149,7 +149,7 @@ describe('useCart Hook', () => {
         );
         expect(mockedSetItemLocalStorage).not.toHaveBeenCalled();
       },
-      { timeout: 200 }
+      { timeout: 1000 }
     );
   });
 
